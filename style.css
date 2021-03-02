@@ -1,0 +1,24 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 10%; /* 横幅10% */
+}
+
+.headline { /* headerタグ内のheadingクラスにのみ反映される */
+  font-size: 22px;
+}
+
+nav{
+  text-align: center;
+  
+}
+
+.list{
+ padding-left:40px;
+}
+
